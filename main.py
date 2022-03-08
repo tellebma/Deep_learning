@@ -93,8 +93,8 @@ if __name__ == '__main__':
     print(X_test.shape)
     print(y_test.shape)
 
-    plt.figure(figsize=(16, 8))
-    for i in range(1, 10):
+    plt.figure(figsize=(32, 8))
+    for i in range(1, 16):
         plt.subplot(4, 5, i)
         plt.imshow(X_train[i], cmap='gray')
         plt.title(y_train[i])
